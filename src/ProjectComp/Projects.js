@@ -44,7 +44,7 @@ const Projects = () => {
             <img src="pigin11.png" alt="loading" />
           </CardImg1>
           <Disc>A User Generated pigin dictionary</Disc>
-          <A href="">click to visit</A>
+          <A href="https://pidgin-app.herokuapp.com">click to visit</A>
         </Card>
         <Card>
           <CardImg>

@@ -142,7 +142,7 @@ const Name = styled.div`
   font-size: 25px;
   font-weight: lighter;
   color: #7f7f7f;
-  :before {
+  /* :before {
     content: "[";
     margin-right: 12px;
     color: #36c157;
@@ -171,7 +171,7 @@ const Name = styled.div`
         opacity: 0;
       }
     }
-  }
+  } */
   @media screen and (max-width: 768px) {
     font-size: 22px;
   }
@@ -184,6 +184,12 @@ const Right = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  @media screen and (max-width: 1024px) {
+    padding-bottom: 20px;
+  }
+  @media screen and (max-width: 320px) {
+    padding-bottom: 20px;
   }
 `;
 
@@ -272,7 +278,7 @@ const Text = styled.div`
   }
   @media screen and (max-width: 320px) {
     text-align: center;
-    font-size: 16px;
+    font-size: 1px;
     padding: 0px 10px;
   }
 `;

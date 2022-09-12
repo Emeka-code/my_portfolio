@@ -29,7 +29,7 @@ const Projects = () => {
           <CardImg>
             <img src="sos.png" alt="loading" />
           </CardImg>
-          <Disc> app that allow user to njdjvn</Disc>
+          <Disc>A distress </Disc>
           <A href="distress-cl.herokuapp.com">click to visit</A>
         </Card>
         <Card>
@@ -43,23 +43,23 @@ const Projects = () => {
           <CardImg1>
             <img src="pigin11.png" alt="loading" />
           </CardImg1>
-          <Disc> app that allow user to njdjvn</Disc>
+          <Disc>A User Generated pigin dictionary</Disc>
           <A href="">click to visit</A>
         </Card>
         <Card>
           <CardImg>
             <img src="skool1.png" alt="loading" />
           </CardImg>
-          <Disc> app that allow user to njdjvn</Disc>
+          <Disc>An ERP software school management system </Disc>
           <A href="https://sckoolkod.vercel.app">click to visit</A>
         </Card>
-        <Card>
+        {/* <Card>
           <CardImg>
             <img src="ucare.png" alt="loading" />
           </CardImg>
           <Disc> app that allow user to njdjvn</Disc>
           <A href="https://ucare.versel.app">click to visit</A>
-        </Card>
+        </Card> */}
       </Wrapper>
     </Container>
   );
@@ -139,6 +139,19 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+
+  @media screen and (max-width: 768px) {
+    padding-bottom: 55px;
+  }
+  @media screen and (max-width: 425px) {
+    padding-bottom: 55px;
+  }
+  @media screen and (max-width: 375px) {
+    padding-bottom: 55px;
+  }
+  @media screen and (max-width: 320px) {
+    padding-bottom: 55px;
+  }
 `;
 
 const Card = styled.div`
@@ -186,11 +199,13 @@ const CardImg1 = styled.div`
 `;
 
 const Disc = styled.div`
-  font-size: 18px;
-  margin: 10px 0;
+  font-size: 16px;
+  margin: 6px 0;
+  text-align: center;
 `;
 const A = styled.a`
   font-size: 18px;
   color: grey;
   text-decoration: none;
+  font-weight: 700;
 `;

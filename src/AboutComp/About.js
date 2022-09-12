@@ -195,6 +195,7 @@ const Box1 = styled.div`
   width: 25px;
   height: 25px;
   position: absolute;
+  display: none;
   top: 0;
   left: 0;
   z-index: -1;
@@ -215,6 +216,7 @@ const Box1 = styled.div`
 const Box2 = styled.div`
   width: 25px;
   height: 25px;
+  display: none;
   position: absolute;
   top: 0;
   right: 0;
@@ -260,6 +262,7 @@ const Box3 = styled.div`
   height: 25px;
   position: absolute;
   bottom: 0;
+  display: none;
   left: 0;
   z-index: -1;
   border-left: 3px solid #36c157;
@@ -281,6 +284,8 @@ const Box4 = styled.div`
   width: 25px;
   height: 25px;
   position: absolute;
+  display: none;
+
   bottom: 0;
   right: 0;
   z-index: -1;

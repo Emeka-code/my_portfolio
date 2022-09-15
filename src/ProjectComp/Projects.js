@@ -30,7 +30,7 @@ const Projects = () => {
             <img src="sos.png" alt="loading" />
           </CardImg>
           <Disc>A distress </Disc>
-          <A href="distress-cl.herokuapp.com">click to visit</A>
+          <A href="https://distress-cl.herokuapp.com">click to visit</A>
         </Card>
         <Card>
           <CardImg>

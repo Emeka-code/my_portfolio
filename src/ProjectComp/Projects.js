@@ -29,14 +29,14 @@ const Projects = () => {
           <CardImg>
             <img src="sos.png" alt="loading" />
           </CardImg>
-          <Disc>A distress </Disc>
+          <Disc>A distress call app </Disc>
           <A href="https://distress-cl.herokuapp.com">click to visit</A>
         </Card>
         <Card>
           <CardImg>
             <img src="callcare.png" alt="loading" />
           </CardImg>
-          <Disc> app that allow user to njdjvn</Disc>
+          <Disc> A caregiven app for old </Disc>
           <A href="https://tendakare.vercel.app">click to visit</A>
         </Card>
         <Card>

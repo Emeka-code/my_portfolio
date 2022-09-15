@@ -37,7 +37,7 @@ const Projects = () => {
             <img src="callcare.png" alt="loading" />
           </CardImg>
           <Disc> app that allow user to njdjvn</Disc>
-          <A href="https://callcare.versel.app">click to visit</A>
+          <A href="https://tendakare.vercel.app">click to visit</A>
         </Card>
         <Card>
           <CardImg1>
